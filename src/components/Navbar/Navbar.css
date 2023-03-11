@@ -1,0 +1,30 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    grid-area: 1 / 1 / -1 / -1;
+}
+
+.menu{
+    display: flex;
+    gap: 1em;
+    margin-right: 1em;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo {
+    padding: 0.5em;
+}
+
+.li:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}

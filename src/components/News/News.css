@@ -1,0 +1,21 @@
+.news{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 5%);
+    grid-column: 3;
+    padding: .5em 1em;
+}
+
+.news-header{
+    color: hsl(35, 77%, 62%);
+}
+
+.news-statement{
+    border-bottom-style: outset;
+    border-bottom-color: coral;
+    border-bottom-width: 1px;
+}
+
+.news-statement h3{
+    margin:0;
+}
